@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { FishInfo } from './fish-info';
-import * as fishJson from './json/fish.json';
 
 @Injectable({
   providedIn: 'root'
