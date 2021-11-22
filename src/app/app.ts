@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import * as ons from 'onsenui';
+import {FishListComponent} from './fish-list/fish-list.component';
 
 @Component({
   selector: 'app',
