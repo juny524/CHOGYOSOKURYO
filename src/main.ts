@@ -12,6 +12,7 @@ import {OnsenModule} from 'ngx-onsenui';
 
 import {MyApp} from './app/app';
 import {FishListComponent} from './app/fish-list/fish-list.component';
+import { TournamentFormComponent } from './app/tournament-form/tournament-form.component';
 
 // Enable production mode when in production mode.
 if (process.env.NODE_ENV === 'production') {
@@ -31,9 +32,11 @@ if (ons.platform.isIPhoneX()) {
     declarations: [
         MyApp,
         FishListComponent,
+        TournamentFormComponent,
     ],
     entryComponents: [
         FishListComponent,
+        TournamentFormComponent,
     ],
     bootstrap: [
         MyApp,
